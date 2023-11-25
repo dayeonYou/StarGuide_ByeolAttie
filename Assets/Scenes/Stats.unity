@@ -287,7 +287,7 @@ GameObject:
   - component: {fileID: 25204422}
   - component: {fileID: 25204421}
   m_Layer: 5
-  m_Name: line
+  m_Name: gline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -711,7 +711,7 @@ GameObject:
   - component: {fileID: 48308420}
   - component: {fileID: 48308419}
   m_Layer: 5
-  m_Name: bar
+  m_Name: sbar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -734,8 +734,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.1374924, y: 0.07448472}
   m_AnchorMax: {x: 0.20374621, y: 0.59151524}
-  m_AnchoredPosition: {x: 0.49108887, y: -0.3360138}
-  m_SizeDelta: {x: -3.130005, y: -1.1700134}
+  m_AnchoredPosition: {x: 0.49108887, y: -65.669}
+  m_SizeDelta: {x: -3.13, y: -131.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &48308419
 MonoBehaviour:
@@ -7571,8 +7571,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.13000001, y: 0.07448472}
   m_AnchorMax: {x: 0.18574621, y: 0.58420724}
-  m_AnchoredPosition: {x: 0.704834, y: 2.9468536}
-  m_SizeDelta: {x: -1.4096527, y: 0.82992554}
+  m_AnchoredPosition: {x: 0.704834, y: -62.48}
+  m_SizeDelta: {x: -1.41, y: -130.02}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &761442053
 MonoBehaviour:
@@ -7759,7 +7759,7 @@ GameObject:
   - component: {fileID: 796217892}
   - component: {fileID: 796217891}
   m_Layer: 5
-  m_Name: bar
+  m_Name: gbar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7782,8 +7782,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.1374924, y: 0.07448472}
   m_AnchorMax: {x: 0.20374621, y: 0.59151524}
-  m_AnchoredPosition: {x: 0.49993896, y: -0.33599854}
-  m_SizeDelta: {x: -3.130005, y: -1.1700134}
+  m_AnchoredPosition: {x: 0.49993896, y: -65.493}
+  m_SizeDelta: {x: -3.13, y: -131.48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &796217891
 MonoBehaviour:
@@ -7911,6 +7911,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ConstellationName: Cancer
+  graphContainer: {fileID: 25204420}
+  graphContainer2: {fileID: 1939043992}
+  barPrefab: {fileID: 796217889}
+  barPrefab2: {fileID: 48308417}
+  barWidth: 1
+  spacing: 100
 --- !u!114 &803832542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11394,6 +11400,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 803832541}
+        m_TargetAssemblyTypeName: Target_getInfoStats, Assembly-CSharp
+        m_MethodName: printInfo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1094937219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13848,8 +13866,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.13000001, y: 0.07448472}
   m_AnchorMax: {x: 0.18574621, y: 0.58420724}
-  m_AnchoredPosition: {x: 2.0002441, y: 0.5473633}
-  m_SizeDelta: {x: -1.4096375, y: 1.1785889}
+  m_AnchoredPosition: {x: 8, y: -64.71}
+  m_SizeDelta: {x: -1.41, y: -129.33}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1397466112
 MonoBehaviour:
@@ -19528,7 +19546,7 @@ GameObject:
   - component: {fileID: 1939043994}
   - component: {fileID: 1939043993}
   m_Layer: 5
-  m_Name: line
+  m_Name: sline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19602,6 +19620,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1944147031}
   - component: {fileID: 1944147032}
+  - component: {fileID: 1944147033}
   m_Layer: 5
   m_Name: G_targetEyeTracking
   m_TagString: Untagged
@@ -19643,6 +19662,25 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &1944147033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944147030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa0c4d03fd716a44cba9ab2627d85a03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ConstellationName: Cancer
+  graphContainer: {fileID: 923324782}
+  graphContainer2: {fileID: 1711291013}
+  barPrefab: {fileID: 1397466110}
+  barPrefab2: {fileID: 761442051}
+  barWidth: 1
+  spacing: 100
 --- !u!1 &1947791178
 GameObject:
   m_ObjectHideFlags: 0
