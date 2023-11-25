@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/RFst.unity
+    guid: 05b1405e7769d8c4db86988b837c9898
+  - enabled: 1
+    path: Assets/Scenes/TwelveStars.unity
+    guid: 498f1edfcc863294285eac79e0617ccc
+  - enabled: 1
+    path: Assets/Scenes/taget game.unity
+    guid: 5a492932dc9e0534593ade7f8af649d7
+  - enabled: 1
+    path: Assets/Scenes/Davin/Heart3.unity
+    guid: 31180c46d2d1a40c1b99c3d34793e9be
+  - enabled: 1
+    path: Assets/Scenes/Davin/TreasureHunt1.unity
+    guid: 0c0d83a004cc46949910da2647b4abd0
+  - enabled: 1
+    path: Assets/Scenes/Davin/TreasureHunt2.unity
+    guid: b9907531380ed4106855a93c4fa70808
+  - enabled: 1
+    path: Assets/Scenes/ADHDTest.unity
+    guid: ded9c96f034d3be4e9b236b8016c3f62
+  - enabled: 1
+    path: Assets/Scenes/Calibration_1.unity
+    guid: dd5a28fb346985c4bae35e6e49aaf0ea
+  - enabled: 1
+    path: Assets/Scenes/GS_FindStar.unity
+    guid: 924bc8110067e45a1931ccfaa8f20c9a
+  - enabled: 1
+    path: Assets/Scenes/LoadingScene.unity
+    guid: ecfbd59e50f9c8c48858115c38516072
+  - enabled: 1
+    path: Assets/Scenes/LoadingTestScene.unity
+    guid: ae4485a461bacce4dae80205882c65d1
+  - enabled: 1
+    path: Assets/Scenes/mouse game.unity
+    guid: 40048feb262975b4ea1d3587da3bdad7
+  - enabled: 1
+    path: Assets/Scenes/MyPage.unity
+    guid: 4904f1e5251fe664badd3b237ce1658e
+  - enabled: 1
+    path: Assets/Scenes/RewardScene.unity
+    guid: a724a54d1b49c8a43855ec042aa53e75
+  - enabled: 1
+    path: Assets/Scenes/SeeSoExample.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/StartBtnScene.unity
+    guid: f6237ac766bf69c4cb2e059b60a9c9fe
+  - enabled: 1
+    path: Assets/Scenes/Stats.unity
+    guid: a68e6a1523f313a4b8db447a9221585f
+  - enabled: 1
+    path: Assets/Scenes/T.unity
+    guid: e8a4ccaeaa2695c428dad8223c7d9ef9
+  - enabled: 1
+    path: Assets/Scenes/Constellation_Scene/Aquarius_Constellation.unity
+    guid: 29f1e853c6264e44a8ff33b26c324bf8
+  - enabled: 1
+    path: Assets/Scenes/Constellation_Scene/Aries_Constellation.unity
+    guid: 2dc6726325f5fb342a2cf59bd784ab84
+  - enabled: 1
+    path: Assets/Scenes/Constellation_Scene/Cancer_Constellation.unity
+    guid: 5d0b65fcb5ef9434785e505c38330d02
+  - enabled: 1
+    path: Assets/Scenes/Constellation_Scene/Capricorn_Constellation.unity
+    guid: d59f291447c63cf4887a083ece4cb9e2
+  - enabled: 1
+    path: Assets/Scenes/Constellation_Scene/Gemini_Constellation.unity
+    guid: a6d71576f54ea4d42b4c73af02449910
+  - enabled: 1
+    path: Assets/Scenes/Constellation_Scene/Leo_Constellation.unity
+    guid: 6babbcc847fbae647a98728e61097ac2
+  - enabled: 1
+    path: Assets/Scenes/Constellation_Scene/Libra_Constellation.unity
+    guid: 0c9f392c5d824a346835adb7660b6787
+  - enabled: 1
+    path: Assets/Scenes/Constellation_Scene/Pisces_Constellation.unity
+    guid: 58e02674e4448b54992a148279c4b90e
+  - enabled: 1
+    path: Assets/Scenes/Constellation_Scene/Sagittarius_Constellation.unity
+    guid: 513cbb6e72d969949b0f8670b876941e
+  - enabled: 1
+    path: Assets/Scenes/Constellation_Scene/Scorpio_Constellation.unity
+    guid: 1657e9b3314f80d468025446b79fc917
+  - enabled: 1
+    path: Assets/Scenes/Constellation_Scene/Taurus_Constellation.unity
+    guid: 4e51a9bbc12557444a455d6dc5ae0e47
+  - enabled: 1
+    path: Assets/Scenes/Constellation_Scene/Virgo_Constellation.unity
+    guid: f22559d36ab7ece4a9fe069393b30d4e
+  m_configObjects: {}

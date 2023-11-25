@@ -1,0 +1,1731 @@
+fileFormatVersion: 2
+guid: c92b37203b645dc4bb3fe72b14450a0b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: countDownBlack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3008
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1731fc5df38e620458a39c564d3f5c18
+      internalID: -10867129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_1
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 3008
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f864724f373eebe4c9a8515640a8068b
+      internalID: -437912712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_2
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 3008
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073151c9f42173446a20a1eb22124af1
+      internalID: 1501870195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_3
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 3008
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea78a854feeb7b7469960fe11c860617
+      internalID: -340024554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_4
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3008
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8593cf6e4c1bb4fa4c55cc20cdf88d
+      internalID: -1068723102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_5
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3008
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55239abb4e2078849967833904ba4dd6
+      internalID: -2020826936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_6
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 3008
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5397c303064a6134598c046da6d7d3ec
+      internalID: -604920574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_7
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 3008
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4149733baab8a246af0b0859e796267
+      internalID: 1697855934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2632
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19fdbe5397dd89e4799ac563221867b7
+      internalID: -1944762811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_9
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 2632
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0777ac9de5119499e86888b9383cb7
+      internalID: 1667774316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_10
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2632
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475995007aa24384391aad8983fe415a
+      internalID: -2047332132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_11
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2632
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9738c23141cb394459ebb790718f6b06
+      internalID: 1411280351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_12
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2632
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc7d324e74a8274fa35c1dc7d9a525f
+      internalID: -824100608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_13
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2632
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab681c767c448d41929c0f308c86099
+      internalID: 2009975350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_14
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2632
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30a0e20d9308304397329ea7f4cd854
+      internalID: -319681012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_15
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 2632
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebde91e4f02353b44badf7a143894a0d
+      internalID: 1999323801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2256
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844f8b7343efa1741af877c984f931e9
+      internalID: 1761883937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_17
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 2256
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b07d98484c8aa148800b9ce09ebdda5
+      internalID: -2055111281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_18
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2256
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66fd4610a5198fb4f977d7bf153cc273
+      internalID: 1054478830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_19
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2256
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b6dfd5d39c3de4d8616dcfa66a3478
+      internalID: 1498037016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_20
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2256
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef1a15bea848ab449e5e1cd6b1f2d28
+      internalID: -778809763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_21
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2256
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122a46ec3e90db74aa8e04281aac0a75
+      internalID: 2003934861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_22
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2256
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec65120a5d8f4c8409947eb64190364d
+      internalID: -852540417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_23
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 2256
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd487b95d2523c48901016613d00a84
+      internalID: -815219330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1880
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c85d9e1f86c1944091c8dc43c74bfd6
+      internalID: 634029242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_25
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1880
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b7648476edcc64987310364030dcff
+      internalID: -1444178524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_26
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1880
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11018704ec552904dae9c0db08110573
+      internalID: -727293422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_27
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1880
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b1b88f52a6291458260c4157783697
+      internalID: -1290823037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_28
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1880
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d171cda457f744e867513b4da03325
+      internalID: 1222560324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_29
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1880
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d644363188ecd428392e07ca88d157
+      internalID: 30177770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_30
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1880
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f669274f2be1e42b3f3a9223ee95ad
+      internalID: 717639607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_31
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 1880
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea72ee43ff8d6b46bfcb5e4b1542941
+      internalID: -76033931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1504
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098783aac88588f45a0d2f1c2ca6867d
+      internalID: -1701153097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_33
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1504
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ffd9cda2c0e9ca4a85892a07c1320b6
+      internalID: 118428159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_34
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1504
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b968551ac69b6c04eafa575b7fbbc489
+      internalID: 1932190738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_35
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1504
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce393cbd0bd12b488e151983288185a
+      internalID: 1283185831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_36
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1504
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3c05bb17e5d8c4a8887175aa075835
+      internalID: -1858181261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_37
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1504
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feed67e9fcbf92c4194f4b591796bd53
+      internalID: 1076611320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_38
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1504
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5b6427b660c9c4c9eab9837191ce78
+      internalID: -2031295505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_39
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 1504
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6883ed393373047bdbff6a13ee24df
+      internalID: 901954583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1128
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9696c2174c607f14d867f8743a8f1727
+      internalID: 1316853555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_41
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1128
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907700fc9b78cb546997f6ce161159ee
+      internalID: -1005568349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_42
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1128
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab19f798a0b7654cad3fe6c8984b380
+      internalID: 1500960376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_43
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1128
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88105a1173a29347b354a13b347f621
+      internalID: 1737922395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_44
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1128
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d8e22d32e5efa44a1526c88fcd3fbc
+      internalID: 385508444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_45
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1128
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0a99f2dcf17574582d4cb2ed42b990
+      internalID: -465551293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_46
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1128
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c594c47fd3df9494fb97f78fd1d96a45
+      internalID: 486610919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_47
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 1128
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a591591285383f3468ecfdc7089f5da3
+      internalID: 1822043252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 752
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d67582a7b801949b6ccc6a7df364bd
+      internalID: -1053958675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_49
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 752
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdae5df3d50ad434c8e8eb8fbd244803
+      internalID: -987196503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_50
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 752
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3a6ee33eaaeb143a0345ac9e8b4259
+      internalID: 297407920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_51
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 752
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f147556530030e47ad4c46b71dbae85
+      internalID: 1910773733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_52
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 752
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1acae0f22f63433499300e0e522e0d58
+      internalID: -1071842201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_53
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 752
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a0ec0bc233f974bac50ece5fb0da9e
+      internalID: -154126832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_54
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 752
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64619825f05e1041b7b488b7cf05304
+      internalID: 846456804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_55
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 752
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1cc5fbb334b3844ebfd1ab035b03870
+      internalID: 1988252575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 376
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c3d6e3a1d713f47b4db2680ca57278
+      internalID: -757902849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_57
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 376
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2451cfdd53831c7488b60a0d9cc78023
+      internalID: -103120410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_58
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 376
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcb90916ce9e1641b49fa89b08cffbd
+      internalID: -1969403364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_59
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 376
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4909a2ac0b5214c9029f93d10237d7
+      internalID: -1639288572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_60
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 376
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7240123a0c66ba24bbac56fae91da8b2
+      internalID: 262704106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_61
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 376
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c2ed5847e7e874eb85987bdd0998cb
+      internalID: 1943962888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_62
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 376
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41cf0567189fa174fbfaafef38b3397d
+      internalID: -596897947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_63
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 376
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf26902e9bca32247839d314814b823e
+      internalID: -1214135450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463715052dece9448981ad2d48e39050
+      internalID: 954424602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_65
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856151663db0ccd43921c83273211fa1
+      internalID: -713985605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_66
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610fc8706d7b8584f88ee258e49ace49
+      internalID: 428842165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_67
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f12420a453c81643afe3ba5c7703265
+      internalID: -2088875337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_68
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9186b05c0480ac84bbf3bab0f934048e
+      internalID: 1538173229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_69
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105e34a0b346db24e892d962ce42f8df
+      internalID: -1872414436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_70
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df5027fb32d0134da874e45a5883981
+      internalID: 1589357991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countDownBlack_71
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 0
+        width: 480
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2987453a38f97714e89a58e23b9fe4f8
+      internalID: -271391956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      countDownBlack_0: -10867129
+      countDownBlack_1: -437912712
+      countDownBlack_10: -2047332132
+      countDownBlack_11: 1411280351
+      countDownBlack_12: -824100608
+      countDownBlack_13: 2009975350
+      countDownBlack_14: -319681012
+      countDownBlack_15: 1999323801
+      countDownBlack_16: 1761883937
+      countDownBlack_17: -2055111281
+      countDownBlack_18: 1054478830
+      countDownBlack_19: 1498037016
+      countDownBlack_2: 1501870195
+      countDownBlack_20: -778809763
+      countDownBlack_21: 2003934861
+      countDownBlack_22: -852540417
+      countDownBlack_23: -815219330
+      countDownBlack_24: 634029242
+      countDownBlack_25: -1444178524
+      countDownBlack_26: -727293422
+      countDownBlack_27: -1290823037
+      countDownBlack_28: 1222560324
+      countDownBlack_29: 30177770
+      countDownBlack_3: -340024554
+      countDownBlack_30: 717639607
+      countDownBlack_31: -76033931
+      countDownBlack_32: -1701153097
+      countDownBlack_33: 118428159
+      countDownBlack_34: 1932190738
+      countDownBlack_35: 1283185831
+      countDownBlack_36: -1858181261
+      countDownBlack_37: 1076611320
+      countDownBlack_38: -2031295505
+      countDownBlack_39: 901954583
+      countDownBlack_4: -1068723102
+      countDownBlack_40: 1316853555
+      countDownBlack_41: -1005568349
+      countDownBlack_42: 1500960376
+      countDownBlack_43: 1737922395
+      countDownBlack_44: 385508444
+      countDownBlack_45: -465551293
+      countDownBlack_46: 486610919
+      countDownBlack_47: 1822043252
+      countDownBlack_48: -1053958675
+      countDownBlack_49: -987196503
+      countDownBlack_5: -2020826936
+      countDownBlack_50: 297407920
+      countDownBlack_51: 1910773733
+      countDownBlack_52: -1071842201
+      countDownBlack_53: -154126832
+      countDownBlack_54: 846456804
+      countDownBlack_55: 1988252575
+      countDownBlack_56: -757902849
+      countDownBlack_57: -103120410
+      countDownBlack_58: -1969403364
+      countDownBlack_59: -1639288572
+      countDownBlack_6: -604920574
+      countDownBlack_60: 262704106
+      countDownBlack_61: 1943962888
+      countDownBlack_62: -596897947
+      countDownBlack_63: -1214135450
+      countDownBlack_64: 954424602
+      countDownBlack_65: -713985605
+      countDownBlack_66: 428842165
+      countDownBlack_67: -2088875337
+      countDownBlack_68: 1538173229
+      countDownBlack_69: -1872414436
+      countDownBlack_7: 1697855934
+      countDownBlack_70: 1589357991
+      countDownBlack_71: -271391956
+      countDownBlack_8: -1944762811
+      countDownBlack_9: 1667774316
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

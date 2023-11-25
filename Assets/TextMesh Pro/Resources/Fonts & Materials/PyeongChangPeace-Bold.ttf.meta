@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+<<<<<<< Updated upstream
+guid: b24bbdda2017ca548bdfd7c6081341d9
+=======
+guid: 918270de422247447bf1741b2a29c9e1
+>>>>>>> Stashed changes
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - PyeongChang Peace
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d7dac0bd599438a4a834506642513273, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
