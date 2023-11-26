@@ -10,7 +10,7 @@ using UnityEngine.UI;
 public class DisplaySignUp : MonoBehaviour
 {
     public GameObject squareOb;
-    public GameObject textToStart;
+    //public GameObject textToStart;
     public GameObject btnJoin;
     public GameObject btnLogin;
     public GameObject btnLogout;
@@ -52,7 +52,7 @@ public class DisplaySignUp : MonoBehaviour
         imageComponent  = squareOb.GetComponent<Image>();
 
         // squareObRenderer = squareOb.GetComponent<SpriteRenderer>();
-        textToStartCanvasGroup = textToStart.GetComponent<CanvasGroup>();
+        //textToStartCanvasGroup = textToStart.GetComponent<CanvasGroup>();
         btnStartCanvasGroup = btnStart.GetComponent<CanvasGroup>();
         btnJoinCanvasGroup = btnJoin.GetComponent<CanvasGroup>();
         btnLoginCanvasGroup = btnLogin.GetComponent<CanvasGroup>();
@@ -74,7 +74,7 @@ public class DisplaySignUp : MonoBehaviour
         fieldEmailCanvasGroup.alpha = 0f;
         fieldPasswordCanvasGroup.alpha = 0f;
 
-        textToStart.SetActive(true);
+        //textToStart.SetActive(true);
         textToStartCanvasGroup.alpha = 1f;
 
         SetFirebaseAuth(FirebaseAuth.DefaultInstance);
@@ -199,7 +199,7 @@ public class DisplaySignUp : MonoBehaviour
             Debug.Log("자동로그인 성공 + 클릭" + AutoLoginStatus);
 
             // 텍스트 메시 프로 컴포넌트에 접근하여 텍스트를 변경
-            TextMeshProUGUI textMeshPro = textToStart.GetComponent<TextMeshProUGUI>();
+            //TextMeshProUGUI textMeshPro = textToStart.GetComponent<TextMeshProUGUI>();
             //textMeshPro.text = "자동 로그인 되었습니다.";
             Debug.Log("이메일: " + fbAuth.CurrentUser.Email);
             Debug.Log("사용자 ID: " + fbAuth.CurrentUser.UserId);
@@ -209,7 +209,7 @@ public class DisplaySignUp : MonoBehaviour
             // Animator 컴포넌트에 액세스하여 애니메이션을 트리거
             Animator animator = titleObject.GetComponent<Animator>();
             Animator animator2 = titleText.GetComponent<Animator>();
-            textToStartCanvasGroup.DOFade(0f, 1f).OnComplete(() => textToStart.SetActive(false));
+            //textToStartCanvasGroup.DOFade(0f, 1f).OnComplete(() => textToStart.SetActive(false));
             btnStartCanvasGroup.DOFade(0f, 1f).OnComplete(() => btnStart.SetActive(false));
 
             animator.Play("moveTitle");
@@ -230,10 +230,11 @@ public class DisplaySignUp : MonoBehaviour
         fieldPasswordCanvasGroup.DOFade(1f, 1f);
 
         btnStartCanvasGroup.DOFade(0f, 1f).OnComplete(() => btnStart.SetActive(false));
-        textToStartCanvasGroup.DOFade(0f, 1f).OnComplete(() => textToStart.SetActive(false));
+        //textToStartCanvasGroup.DOFade(0f, 1f).OnComplete(() => textToStart.SetActive(false));
     }
     public void ShowButtonAndTextWithFadeOut()
     {
+        /*
         btnJoinCanvasGroup.DOFade(0f, 1f).OnComplete(() => textToStart.SetActive(false));
         btnLoginCanvasGroup.DOFade(0f, 1f).OnComplete(() => textToStart.SetActive(false));
         textStatusCanvasGroup.DOFade(0f, 1f).OnComplete(() => textToStart.SetActive(false));
@@ -243,6 +244,7 @@ public class DisplaySignUp : MonoBehaviour
         btnStartCanvasGroup.DOFade(0f, 1f).OnComplete(() => btnStart.SetActive(false));
         textToStartCanvasGroup.DOFade(0f, 1f).OnComplete(() => textToStart.SetActive(false));
         imageComponent.DOFade(0f, 1f).OnComplete(() => textToStart.SetActive(false));
+        */
     } 
 
     public void LoginSuccess()
@@ -263,7 +265,7 @@ public class DisplaySignUp : MonoBehaviour
         // Animator 컴포넌트에 액세스하여 애니메이션을 트리거.
         Animator animator = titleObject.GetComponent<Animator>();
         Animator animator2 = titleText.GetComponent<Animator>();
-        textToStartCanvasGroup.DOFade(0f, 1f).OnComplete(() => textToStart.SetActive(false));
+        //textToStartCanvasGroup.DOFade(0f, 1f).OnComplete(() => textToStart.SetActive(false));
         btnStartCanvasGroup.DOFade(0f, 1f).OnComplete(() => btnStart.SetActive(false));
 
         animator.Play("moveTitle");
@@ -285,7 +287,7 @@ public class DisplaySignUp : MonoBehaviour
         
         Animator animator2 = titleText.GetComponent<Animator>();
         Animator animator = titleObject.GetComponent<Animator>();
-        textToStartCanvasGroup.DOFade(0f, 1f).OnComplete(() => textToStart.SetActive(false));
+        //textToStartCanvasGroup.DOFade(0f, 1f).OnComplete(() => textToStart.SetActive(false));
         btnStartCanvasGroup.DOFade(0f, 1f).OnComplete(() => btnStart.SetActive(false));
 
         animator2.Play("MOVETitleText");
