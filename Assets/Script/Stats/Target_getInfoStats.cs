@@ -149,8 +149,8 @@ public class Target_getInfoStats : MonoBehaviour
 
             float barHeight;
             if (values[i] == 0) barHeight = 1f;
-            else barHeight = values[i] / 120f * graphHeight;
-            // 값을 기준으로 막대의 높이 계산 (0~120 범위를 그래프 컨테이너의 높이 범위로 변환)
+            else barHeight = (values[i] / 200f) * graphHeight;
+            // 값을 기준으로 막대의 높이 계산 (0~200 범위를 그래프 컨테이너의 높이 범위로 변환)
 
             float yPos = position.y; // 막대의 y축 위치 계산 (1로 고정)
             barRect.sizeDelta = new Vector2(barWidth, barHeight); // 막대의 크기 설정
@@ -181,8 +181,8 @@ public class Target_getInfoStats : MonoBehaviour
 
             float barHeight;
             if (values[i] == 0) barHeight = 1f;
-            else barHeight = values[i] / 120f * graphHeight;
-            // 값을 기준으로 막대의 높이 계산 (0~120 범위를 그래프 컨테이너의 높이 범위로 변환)float yPos = position.y; // 막대의 y축 위치 계산 (1로 고정)
+            else barHeight = (values[i] / 200f) * graphHeight;
+            // 값을 기준으로 막대의 높이 계산 (0~200 범위를 그래프 컨테이너의 높이 범위로 변환)float yPos = position.y; // 막대의 y축 위치 계산 (1로 고정)
 
             float yPos = position.y; // 막대의 y축 위치 계산 (1로 고정)
             barRect.sizeDelta = new Vector2(barWidth, barHeight); // 막대의 크기 설정
