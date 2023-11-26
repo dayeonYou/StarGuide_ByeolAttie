@@ -4000,8 +4000,8 @@ struct ObjectSelector_tFDB8076A7B1D4B692CF75F9A98D7A86DF975C96A  : public MonoBe
 	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___cups_10;
 	// UnityEngine.UI.Button ObjectSelector::stBtn
 	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___stBtn_11;
-	// TMPro.TextMeshProUGUI ObjectSelector::textMeshPro_selectMessage
-	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___textMeshPro_selectMessage_12;
+	// UnityEngine.GameObject ObjectSelector::Panel_selectMessage
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___Panel_selectMessage_12;
 	// System.Single ObjectSelector::displayTime
 	float ___displayTime_13;
 	// UnityEngine.Sprite ObjectSelector::abledImage
@@ -28501,13 +28501,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CActivateTextCoroutineU3Ed__13_MoveNex
 IL_0017:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
-		// textMeshPro_selectMessage.gameObject.SetActive(true);
+		// Panel_selectMessage.gameObject.SetActive(true);
 		ObjectSelector_tFDB8076A7B1D4B692CF75F9A98D7A86DF975C96A* L_4 = V_1;
 		NullCheck(L_4);
-		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_5 = L_4->___textMeshPro_selectMessage_12;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = L_4->___Panel_selectMessage_12;
 		NullCheck(L_5);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
-		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_5, NULL);
+		L_6 = GameObject_get_gameObject_m0878015B8CF7F5D432B583C187725810D27B57DC(L_5, NULL);
 		NullCheck(L_6);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)1, NULL);
 		// yield return new WaitForSeconds(displayTime);
@@ -28526,13 +28526,13 @@ IL_0017:
 IL_0049:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
-		// textMeshPro_selectMessage.gameObject.SetActive(false);
+		// Panel_selectMessage.gameObject.SetActive(false);
 		ObjectSelector_tFDB8076A7B1D4B692CF75F9A98D7A86DF975C96A* L_10 = V_1;
 		NullCheck(L_10);
-		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_11 = L_10->___textMeshPro_selectMessage_12;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = L_10->___Panel_selectMessage_12;
 		NullCheck(L_11);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12;
-		L_12 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_11, NULL);
+		L_12 = GameObject_get_gameObject_m0878015B8CF7F5D432B583C187725810D27B57DC(L_11, NULL);
 		NullCheck(L_12);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)0, NULL);
 		// }

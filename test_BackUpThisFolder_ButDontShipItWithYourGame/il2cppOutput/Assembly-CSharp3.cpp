@@ -303,6 +303,8 @@ struct CircleCollider2D_t5D665D58EACA966EA4033BCF0EE91E198552E786;
 struct Clear_Time_t2968204E4AB6F7E3CA20D02E1CA5DDCB3E57835C;
 // ClickableObject
 struct ClickableObject_tBCD571480B403B90576A77ADE4842F9642DA7EEF;
+// ClickableObjectCancer
+struct ClickableObjectCancer_t7C5FE2CD2CB1CD36382F428207E49E14A9C4BE9B;
 // UnityEngine.Collider2D
 struct Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52;
 // UnityEngine.Component
@@ -3574,6 +3576,13 @@ struct ClickableObject_tBCD571480B403B90576A77ADE4842F9642DA7EEF  : public MonoB
 	float ___pressStartTime_6;
 };
 
+// ClickableObjectCancer
+struct ClickableObjectCancer_t7C5FE2CD2CB1CD36382F428207E49E14A9C4BE9B  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// System.String ClickableObjectCancer::ConstellationSceneName
+	String_t* ___ConstellationSceneName_4;
+};
+
 // DisplaySignUp
 struct DisplaySignUp_tEAD2252C1195A6EAC33DB6D40EEB9BCF1A8C51B6  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -5876,6 +5885,10 @@ struct Clear_Time_t2968204E4AB6F7E3CA20D02E1CA5DDCB3E57835C_StaticFields
 // ClickableObject
 
 // ClickableObject
+
+// ClickableObjectCancer
+
+// ClickableObjectCancer
 
 // DisplaySignUp
 
@@ -25121,6 +25134,43 @@ IL_002f:
 }
 // System.Void ClickableObject::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClickableObject__ctor_m1CF2199F7297C91DABC166BFBE66DA0B08AEEE2C (ClickableObject_tBCD571480B403B90576A77ADE4842F9642DA7EEF* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void ClickableObjectCancer::OnMouseDown()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClickableObjectCancer_OnMouseDown_m15FB0650E1E5DE62D191308FDC2AD2BC453A7FF8 (ClickableObjectCancer_t7C5FE2CD2CB1CD36382F428207E49E14A9C4BE9B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC5BFBC09104A610A12B50409FA4ECE2909F1234A);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// LoadingSceneManager.LoadScene(ConstellationSceneName);
+		String_t* L_0 = __this->___ConstellationSceneName_4;
+		LoadingSceneManager_LoadScene_m490074323FC2B2B3355B7776ED550CB3F9664BCA(L_0, NULL);
+		// Debug.Log("??");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralC5BFBC09104A610A12B50409FA4ECE2909F1234A, NULL);
+		// }
+		return;
+	}
+}
+// System.Void ClickableObjectCancer::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClickableObjectCancer__ctor_mBE383BF55721FF9104F43091F3927D8361FC0321 (ClickableObjectCancer_t7C5FE2CD2CB1CD36382F428207E49E14A9C4BE9B* __this, const RuntimeMethod* method) 
 {
 	{
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);

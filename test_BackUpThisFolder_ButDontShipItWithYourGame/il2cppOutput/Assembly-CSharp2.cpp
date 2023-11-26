@@ -4735,8 +4735,8 @@ struct ObjectSelector_tFDB8076A7B1D4B692CF75F9A98D7A86DF975C96A  : public MonoBe
 	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___cups_10;
 	// UnityEngine.UI.Button ObjectSelector::stBtn
 	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___stBtn_11;
-	// TMPro.TextMeshProUGUI ObjectSelector::textMeshPro_selectMessage
-	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___textMeshPro_selectMessage_12;
+	// UnityEngine.GameObject ObjectSelector::Panel_selectMessage
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___Panel_selectMessage_12;
 	// System.Single ObjectSelector::displayTime
 	float ___displayTime_13;
 	// UnityEngine.Sprite ObjectSelector::abledImage

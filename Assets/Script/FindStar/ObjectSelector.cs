@@ -15,7 +15,7 @@ public class ObjectSelector : MonoBehaviour
     public GameObject[] cups;
     public Button stBtn;
 
-    public TextMeshProUGUI textMeshPro_selectMessage;
+    public GameObject Panel_selectMessage;
     public float displayTime = 1f;
 
     public Sprite abledImage;
@@ -103,9 +103,9 @@ public class ObjectSelector : MonoBehaviour
     }
     private System.Collections.IEnumerator ActivateTextCoroutine()
     {
-        textMeshPro_selectMessage.gameObject.SetActive(true);
+        Panel_selectMessage.gameObject.SetActive(true);
         yield return new WaitForSeconds(displayTime);
-        textMeshPro_selectMessage.gameObject.SetActive(false);
+        Panel_selectMessage.gameObject.SetActive(false);
     }
 
     public void ClickCup()
