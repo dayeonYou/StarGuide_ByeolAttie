@@ -1400,6 +1400,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3003643178283119301, guid: b71bb543d0b34294db3dca2481e7b63d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.00079345703
+      objectReference: {fileID: 0}
+    - target: {fileID: 4251507949139075570, guid: b71bb543d0b34294db3dca2481e7b63d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.00018310547
+      objectReference: {fileID: 0}
     - target: {fileID: 4648690483938445336, guid: b71bb543d0b34294db3dca2481e7b63d, type: 3}
       propertyPath: OverlayCanvas
       value: 
@@ -1494,7 +1502,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8071413175774939943, guid: b71bb543d0b34294db3dca2481e7b63d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.000030517578
+      value: 0.000061035156
       objectReference: {fileID: 0}
     - target: {fileID: 8071413175774939943, guid: b71bb543d0b34294db3dca2481e7b63d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1507,6 +1515,14 @@ PrefabInstance:
     - target: {fileID: 8071413175774939943, guid: b71bb543d0b34294db3dca2481e7b63d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9199399078418938205, guid: b71bb543d0b34294db3dca2481e7b63d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.0026245117
+      objectReference: {fileID: 0}
+    - target: {fileID: 9199399078418938205, guid: b71bb543d0b34294db3dca2481e7b63d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.00018310547
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b71bb543d0b34294db3dca2481e7b63d, type: 3}
@@ -2953,6 +2969,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 227193374}
+    - target: {fileID: 8340264760813553121, guid: d3edebed035810a49a1be48d26810627, type: 3}
+      propertyPath: m_Name
+      value: OverText
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3edebed035810a49a1be48d26810627, type: 3}
 --- !u!224 &1626139163 stripped

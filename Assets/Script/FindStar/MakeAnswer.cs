@@ -46,6 +46,9 @@ public class MakeAnswer : MonoBehaviour
     public TextMeshProUGUI textMeshPro_overMessage;
     public TextMeshProUGUI textMeshPro_clearMessage;
 
+    public TextMeshProUGUI textMeshPro_overText;
+    public TextMeshProUGUI textMeshPro_clearText;
+
     public GameObject btnB;
     public GameObject btnR;
     public GameObject squareWindowGame;
@@ -191,6 +194,9 @@ public class MakeAnswer : MonoBehaviour
                     squareWindowGame.SetActive(true);
                     textMeshPro_overMessage.gameObject.SetActive(true);
                     textMeshPro_clearMessage.gameObject.SetActive(false);
+
+                    textMeshPro_overText.gameObject.SetActive(true);
+                    textMeshPro_clearText.gameObject.SetActive(false);
 
                     btnB.SetActive(true);
                     btnR.SetActive(true);

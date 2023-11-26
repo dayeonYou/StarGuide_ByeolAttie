@@ -24,7 +24,10 @@ public class DisplayNumOfAnswer : MonoBehaviour
     public int clearCondition;
     public TextMeshProUGUI textMeshPro_clearMessage;
     public TextMeshProUGUI textMeshPro_overMessage;
-    
+
+    public TextMeshProUGUI textMeshPro_clearText;
+    public TextMeshProUGUI textMeshPro_overText;
+
     public GameObject btnB;
     public GameObject btnR;
     public GameObject btnN;
@@ -72,6 +75,9 @@ public class DisplayNumOfAnswer : MonoBehaviour
             squareWindowGame.SetActive(true);
             textMeshPro_clearMessage.gameObject.SetActive(true);
             textMeshPro_overMessage.gameObject.SetActive(false);
+
+            textMeshPro_clearText.gameObject.SetActive(true);
+            textMeshPro_overText.gameObject.SetActive(false);
 
             btnB.SetActive(true);
             btnN.SetActive(true);
