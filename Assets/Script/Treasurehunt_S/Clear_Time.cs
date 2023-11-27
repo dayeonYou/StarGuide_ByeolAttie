@@ -1,22 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class Clear_Time : MonoBehaviour
 {
-    public Text countDown;
+    public TextMeshProUGUI countDown;
     public int minute = 0;
     public static bool clear_Set = false;
 
     public void Start()
     {
-        countDown = GetComponent<Text>();
+        countDown = GetComponent<TextMeshProUGUI>();
     }
     
     private int TimerCalc()
     {
-        minute = (int)RunningTime.totalTime / 60;
+        minute = (int)RunningTime.totalTime;
         return minute;
     }
 
@@ -25,8 +26,17 @@ public class Clear_Time : MonoBehaviour
         if(clear_Set == true)
         {
             minute = TimerCalc();
-            countDown.text = "클리어 시간 : " + minute + " 분 걸렸습니다!!";
-            //Time.timeScale = 0; //시간 흐름 비율 0으로
-        } 
+            if (minute >= 60)
+            {
+                minute = minute / 60;
+                countDown.text = "게임 클리어까지 " + minute + "분 걸렸어!" + "\n" + "이제 다음 단계로 나아가보자!";
+
+            }
+            else
+            {
+                countDown.text = "게임 클리어까지 " + minute + "초  걸렸어!" + "\n" + "이제 다음 단계로 나아가보자!";
+
+            }
+        }
     }
 }
