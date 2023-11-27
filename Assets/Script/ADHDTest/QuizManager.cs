@@ -10,35 +10,35 @@ public class QuizManager : MonoBehaviour
     public Text questionCount;
     
     public Toggle[] answerToggles;
-    public ToggleGroup toggleGroup; // Åä±Û ±×·ì
-    public Image progressImage; // ÇÁ·Î±×·¹½º ÀÌ¹ÌÁö
+    public ToggleGroup toggleGroup; // í† ê¸€ ê·¸ë£¹
+    public Image progressImage; // í”„ë¡œê·¸ë ˆìŠ¤ ì´ë¯¸ì§€
     
-    public GameObject FinishBtn; // °á°ú ¹öÆ°
-    public GameObject NextBtn; // ´ÙÀ½¹öÆ°
+    public GameObject FinishBtn; // ê²°ê³¼ ë²„íŠ¼
+    public GameObject NextBtn; // ë‹¤ìŒë²„íŠ¼
     public static int totalScore;
 
-    public GameObject NoAnswerPanel; // ÀÀ´ä¾øÀ» ¶§ ¶ç¿ï ÆĞ³Î
+    public GameObject NoAnswerPanel; // ì‘ë‹µì—†ì„ ë•Œ ë„ìš¸ íŒ¨ë„
 
-    public static int currentQuestionIndex = 0;   // Áú¹® ¹øÈ£
+    public static int currentQuestionIndex = 0;   // ì§ˆë¬¸ ë²ˆí˜¸
     private List<string> questions = new List<string>() 
-    { "1. ¼¼ºÎÀûÀÎ ¸é¿¡ ´ëÇØ ²Ä²ÄÇÏ°Ô ÁÖÀÇ¸¦ ±â¿ïÀÌÁö ¸øÇÏ°Å³ª ÇĞ¾÷¿¡¼­ ºÎÁÖÀÇÇÑ ½Ç¼ö¸¦ ÇÑ´Ù.", 
-        "2. ¼Õ¹ßÀ» °¡¸¸È÷ µÎÁö ¸øÇÏ°Å³ª ÀÇÀÚ¿¡ ¾É¾Æ¼­µµ ¸öÀ» ²ÄÁö¶ô°Å¸°´Ù.", 
-        "3. ÀÏÀ» ÇÏ°Å³ª ³îÀÌ¸¦ ÇÒ ¶§ Áö¼ÓÀûÀ¸·Î ÁÖÀÇ¸¦ ÁıÁßÇÏ´Âµ¥ ¾î·Á¿òÀÌ ÀÖ´Ù.",
-        "4. ÀÚ¸®¿¡ ¾É¾Æ ÀÖ¾î¾ß ÇÏ´Â ±³½ÇÀÌ³ª ´Ù¸¥ »óÈ²¿¡¼­ ¾É¾ÆÀÖÁö ¸øÇÑ´Ù.",
-        "5. ´Ù¸¥ »ç¶÷ÀÌ ¸¶ÁÖº¸°í ÀÌ¾ß±â ÇÒ ¶§ °æÃ»ÇÏÁö ¾Ê´Â °ÍÃ³·³ º¸ÀÎ´Ù.",
-        "6. ±×·¸°Ô ÇÏ¸é ¾È µÇ´Â »óÈ²¿¡¼­ Áö³ªÄ¡°Ô ¶Ù¾î´Ù´Ï°Å³ª ±â¾î¿À¸¥´Ù.",
-        "7. Áö½Ã¸¦ µû¸£Áö ¾Ê°í, ÀÏÀ» ³¡³»Áö ¸øÇÑ´Ù.",
-        "8. ¿©°¡ È°µ¿ÀÌ³ª Àç¹ÌÀÖ´Â ÀÏ¿¡ Á¶¿ëÈ÷ Âü¿©ÇÏ±â°¡ ¾î·Æ´Ù.",
-        "9. °úÁ¦¿Í ÀÏÀ» Ã¼°èÀûÀ¸·Î ÇÏÁö ¸øÇÑ´Ù.",
-        "10. ²÷ÀÓ¾øÀÌ ¹«¾ùÀÎ°¡¸¦ ÇÏ°Å³ª ¸¶Ä¡ ¸ğÅÍ°¡ µ¹¾Æ°¡µí ¿òÁ÷ÀÎ´Ù.",
-        "11. Áö¼ÓÀûÀÎ ³ë·ÂÀÌ ¿ä±¸µÇ´Â °úÁ¦(ÇĞ±³°øºÎ³ª ¼÷Á¦)¸¦ ÇÏÁö ¾ÊÀ¸·Á ÇÑ´Ù.",
-        "12. Áö³ªÄ¡°Ô ¸»À» ¸¹ÀÌ ÇÑ´Ù.",
-        "13. °úÁ¦³ª ÀÏÀ» ÇÏ´Âµ¥ ÇÊ¿äÇÑ ¹°°ÇµéÀ» ÀÒ¾î¹ö¸°´Ù.",
-        "14. Áú¹®ÀÌ Ã¤ ³¡³ª±âµµ Àü¿¡ ¼º±ŞÇÏ°Ô ´äÇÑ´Ù.",
-        "15. ½±°Ô »ê¸¸ÇØÁø´Ù.",
-        "16. Â÷·Ê¸¦ ±â´Ù¸®´Âµ¥ ¾î·Á¿òÀÌ ÀÖ´Ù.",
-        "17. ÀÏ»óÀûÀ¸·Î ÇÏ´Â ÀÏÀ» ÀØ¾î¹ö¸°´Ù.",
-        "18. ´Ù¸¥ »ç¶÷À» ¹æÇØÇÏ°Å³ª °£¼·ÇÑ´Ù."
+    { "1. ì„¸ë¶€ì ì¸ ë©´ì— ëŒ€í•´ ê¼¼ê¼¼í•˜ê²Œ ì£¼ì˜ë¥¼ ê¸°ìš¸ì´ì§€ ëª»í•˜ê±°ë‚˜ í•™ì—…ì—ì„œ ë¶€ì£¼ì˜í•œ ì‹¤ìˆ˜ë¥¼ í•œë‹¤.", 
+        "2. ì†ë°œì„ ê°€ë§Œíˆ ë‘ì§€ ëª»í•˜ê±°ë‚˜ ì˜ìì— ì•‰ì•„ì„œë„ ëª¸ì„ ê¼¼ì§€ë½ê±°ë¦°ë‹¤.", 
+        "3. ì¼ì„ í•˜ê±°ë‚˜ ë†€ì´ë¥¼ í•  ë•Œ ì§€ì†ì ìœ¼ë¡œ ì£¼ì˜ë¥¼ ì§‘ì¤‘í•˜ëŠ”ë° ì–´ë ¤ì›€ì´ ìˆë‹¤.",
+        "4. ìë¦¬ì— ì•‰ì•„ ìˆì–´ì•¼ í•˜ëŠ” êµì‹¤ì´ë‚˜ ë‹¤ë¥¸ ìƒí™©ì—ì„œ ì•‰ì•„ìˆì§€ ëª»í•œë‹¤.",
+        "5. ë‹¤ë¥¸ ì‚¬ëŒì´ ë§ˆì£¼ë³´ê³  ì´ì•¼ê¸° í•  ë•Œ ê²½ì²­í•˜ì§€ ì•ŠëŠ” ê²ƒì²˜ëŸ¼ ë³´ì¸ë‹¤.",
+        "6. ê·¸ë ‡ê²Œ í•˜ë©´ ì•ˆ ë˜ëŠ” ìƒí™©ì—ì„œ ì§€ë‚˜ì¹˜ê²Œ ë›°ì–´ë‹¤ë‹ˆê±°ë‚˜ ê¸°ì–´ì˜¤ë¥¸ë‹¤.",
+        "7. ì§€ì‹œë¥¼ ë”°ë¥´ì§€ ì•Šê³ , ì¼ì„ ëë‚´ì§€ ëª»í•œë‹¤.",
+        "8. ì—¬ê°€ í™œë™ì´ë‚˜ ì¬ë¯¸ìˆëŠ” ì¼ì— ì¡°ìš©íˆ ì°¸ì—¬í•˜ê¸°ê°€ ì–´ë µë‹¤.",
+        "9. ê³¼ì œì™€ ì¼ì„ ì²´ê³„ì ìœ¼ë¡œ í•˜ì§€ ëª»í•œë‹¤.",
+        "10. ëŠì„ì—†ì´ ë¬´ì—‡ì¸ê°€ë¥¼ í•˜ê±°ë‚˜ ë§ˆì¹˜ ëª¨í„°ê°€ ëŒì•„ê°€ë“¯ ì›€ì§ì¸ë‹¤.",
+        "11. ì§€ì†ì ì¸ ë…¸ë ¥ì´ ìš”êµ¬ë˜ëŠ” ê³¼ì œ(í•™êµê³µë¶€ë‚˜ ìˆ™ì œ)ë¥¼ í•˜ì§€ ì•Šìœ¼ë ¤ í•œë‹¤.",
+        "12. ì§€ë‚˜ì¹˜ê²Œ ë§ì„ ë§ì´ í•œë‹¤.",
+        "13. ê³¼ì œë‚˜ ì¼ì„ í•˜ëŠ”ë° í•„ìš”í•œ ë¬¼ê±´ë“¤ì„ ìƒì–´ë²„ë¦°ë‹¤.",
+        "14. ì§ˆë¬¸ì´ ì±„ ëë‚˜ê¸°ë„ ì „ì— ì„±ê¸‰í•˜ê²Œ ë‹µí•œë‹¤.",
+        "15. ì‰½ê²Œ ì‚°ë§Œí•´ì§„ë‹¤.",
+        "16. ì°¨ë¡€ë¥¼ ê¸°ë‹¤ë¦¬ëŠ”ë° ì–´ë ¤ì›€ì´ ìˆë‹¤.",
+        "17. ì¼ìƒì ìœ¼ë¡œ í•˜ëŠ” ì¼ì„ ìŠì–´ë²„ë¦°ë‹¤.",
+        "18. ë‹¤ë¥¸ ì‚¬ëŒì„ ë°©í•´í•˜ê±°ë‚˜ ê°„ì„­í•œë‹¤."
     };
 
     void Start()
@@ -53,11 +53,11 @@ public class QuizManager : MonoBehaviour
     public void OnNextButtonPressed()
     {
 
-        // ¼±ÅÃµÈ Åä±ÛÀÌ ¾ø´Â °æ¿ì ÇÔ¼ö¸¦ Á¾·áÇÕ´Ï´Ù.
+        // ì„ íƒëœ í† ê¸€ì´ ì—†ëŠ” ê²½ìš° í•¨ìˆ˜ë¥¼ ì¢…ë£Œí•©ë‹ˆë‹¤.
         if (!toggleGroup.AnyTogglesOn())
         {
             StartCoroutine(ShowAndHideNoAnswerPanel(2));
-            UnityEngine.Debug.Log("´äº¯À» ¼±ÅÃÇØÁÖ¼¼¿ä.");
+            UnityEngine.Debug.Log("ë‹µë³€ì„ ì„ íƒí•´ì£¼ì„¸ìš”.");
             return;
         }
         else
@@ -65,14 +65,14 @@ public class QuizManager : MonoBehaviour
             currentQuestionIndex++;
             if (currentQuestionIndex >= questions.Count - 1)
             {
-                UnityEngine.Debug.Log("¸¶Áö¸· Áú¹®ÀÔ´Ï´Ù.");
+                UnityEngine.Debug.Log("ë§ˆì§€ë§‰ ì§ˆë¬¸ì…ë‹ˆë‹¤.");
                 FinishBtn.SetActive(true);
                 NextBtn.SetActive(false);
-                // currentQuestionIndex = 0; // Ã³À½À¸·Î µ¹¾Æ°©´Ï´Ù.
+                // currentQuestionIndex = 0; // ì²˜ìŒìœ¼ë¡œ ëŒì•„ê°‘ë‹ˆë‹¤.
             }
             UpdateQuestionText();
             StartCoroutine(FillProgress(progressImage.fillAmount + (1f / (questions.Count + 3))));
-            // ÄÚ·çÆ¾À» »ç¿ëÇÏ¿© ÇÁ·Î±×·¹½º ¹Ù ¾÷µ¥ÀÌÆ® ½ÇÇà
+            // ì½”ë£¨í‹´ì„ ì‚¬ìš©í•˜ì—¬ í”„ë¡œê·¸ë ˆìŠ¤ ë°” ì—…ë°ì´íŠ¸ ì‹¤í–‰
         }
 
     }
@@ -82,8 +82,8 @@ public class QuizManager : MonoBehaviour
         currentQuestionIndex--;
         if (currentQuestionIndex < 0)
         {
-            UnityEngine.Debug.Log("Ã¹¹øÂ° Áú¹®ÀÔ´Ï´Ù.");
-            //currentQuestionIndex = questions.Count - 1; // ¸¶Áö¸·À¸·Î µ¹¾Æ°©´Ï´Ù.
+            UnityEngine.Debug.Log("ì²«ë²ˆì§¸ ì§ˆë¬¸ì…ë‹ˆë‹¤.");
+            //currentQuestionIndex = questions.Count - 1; // ë§ˆì§€ë§‰ìœ¼ë¡œ ëŒì•„ê°‘ë‹ˆë‹¤.
         }
         else
         {
@@ -93,7 +93,7 @@ public class QuizManager : MonoBehaviour
         }
 
         StartCoroutine(FillProgress(progressImage.fillAmount - (1f / (questions.Count + 3))));
-        // ÄÚ·çÆ¾À» »ç¿ëÇÏ¿© ÇÁ·Î±×·¹½º ¹Ù ¾÷µ¥ÀÌÆ® ½ÇÇà
+        // ì½”ë£¨í‹´ì„ ì‚¬ìš©í•˜ì—¬ í”„ë¡œê·¸ë ˆìŠ¤ ë°” ì—…ë°ì´íŠ¸ ì‹¤í–‰
     }
 
     private void UpdateQuestionText()
@@ -102,7 +102,7 @@ public class QuizManager : MonoBehaviour
         questionCount.text = (currentQuestionIndex + 1).ToString() + " / " + questions.Count.ToString();
     }
 
-    IEnumerator FillProgress(float targetFill) // ÁøÇàµµ Ã¤¿ì´Â ¾Ö´Ï¸ŞÀÌ¼Ç
+    IEnumerator FillProgress(float targetFill) // ì§„í–‰ë„ ì±„ìš°ëŠ” ì• ë‹ˆë©”ì´ì…˜
     {
         float initialFill = progressImage.fillAmount;
         float timer = 0f;
@@ -110,7 +110,7 @@ public class QuizManager : MonoBehaviour
 
         while (timer < 1f)
         {
-            timer += Time.deltaTime * speed; // ½Ã°£À» ´õÇÕ´Ï´Ù.
+            timer += Time.deltaTime * speed; // ì‹œê°„ì„ ë”í•©ë‹ˆë‹¤.
             progressImage.fillAmount = Mathf.Lerp(initialFill, targetFill, timer);
             yield return null;
         }
