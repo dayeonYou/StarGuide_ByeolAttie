@@ -502,7 +502,7 @@ MonoBehaviour:
   dateOfConstellation: 10.23 ~ 11.22
   text1: {fileID: 802800804}
   text2: {fileID: 581162783}
-  backgroundMusicClip: {fileID: 8300000, guid: bc79e2449bd064e4c8c4d58536c34a88, type: 3}
+  backgroundMusicClip: {fileID: 8300000, guid: 8b44b3da92cc10e4da4b5dc401dc3e51, type: 3}
 --- !u!82 &398219499
 AudioSource:
   m_ObjectHideFlags: 0
@@ -841,7 +841,7 @@ MonoBehaviour:
   dateOfConstellation: 2.19 ~ 3.20
   text1: {fileID: 802800804}
   text2: {fileID: 581162783}
-  backgroundMusicClip: {fileID: 8300000, guid: bc79e2449bd064e4c8c4d58536c34a88, type: 3}
+  backgroundMusicClip: {fileID: 8300000, guid: e00dba0b11849a345aa1721c6ec1a072, type: 3}
 --- !u!82 &547067513
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1096,7 +1096,7 @@ MonoBehaviour:
   dateOfConstellation: 1.20 ~ 2.18
   text1: {fileID: 802800804}
   text2: {fileID: 581162783}
-  backgroundMusicClip: {fileID: 8300000, guid: bc79e2449bd064e4c8c4d58536c34a88, type: 3}
+  backgroundMusicClip: {fileID: 8300000, guid: 8b44b3da92cc10e4da4b5dc401dc3e51, type: 3}
 --- !u!82 &549444483
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1351,7 +1351,7 @@ MonoBehaviour:
   dateOfConstellation: 5.21 ~ 6.21
   text1: {fileID: 802800804}
   text2: {fileID: 581162783}
-  backgroundMusicClip: {fileID: 8300000, guid: bd789ea2fc26ded4ca517856ef51099c, type: 3}
+  backgroundMusicClip: {fileID: 8300000, guid: 8b44b3da92cc10e4da4b5dc401dc3e51, type: 3}
 --- !u!82 &569891878
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2048,7 +2048,7 @@ MonoBehaviour:
   dateOfConstellation: 7.23 ~ 8.22
   text1: {fileID: 802800804}
   text2: {fileID: 581162783}
-  backgroundMusicClip: {fileID: 8300000, guid: bd789ea2fc26ded4ca517856ef51099c, type: 3}
+  backgroundMusicClip: {fileID: 8300000, guid: 6a7a14ddbf3285e41937a0518d8e1e97, type: 3}
 --- !u!82 &1009916721
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2303,7 +2303,7 @@ MonoBehaviour:
   dateOfConstellation: 9.23 ~ 10.22
   text1: {fileID: 802800804}
   text2: {fileID: 581162783}
-  backgroundMusicClip: {fileID: 8300000, guid: bc79e2449bd064e4c8c4d58536c34a88, type: 3}
+  backgroundMusicClip: {fileID: 8300000, guid: 6a7a14ddbf3285e41937a0518d8e1e97, type: 3}
 --- !u!82 &1237057946
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2705,7 +2705,7 @@ MonoBehaviour:
   dateOfConstellation: 8.23 ~ 9.22
   text1: {fileID: 802800804}
   text2: {fileID: 581162783}
-  backgroundMusicClip: {fileID: 8300000, guid: bd789ea2fc26ded4ca517856ef51099c, type: 3}
+  backgroundMusicClip: {fileID: 8300000, guid: cb61b62fb8834a74d93f509fc1c2f0d2, type: 3}
 --- !u!82 &1397055490
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2960,7 +2960,7 @@ MonoBehaviour:
   dateOfConstellation: 3.21 ~ 4.19
   text1: {fileID: 802800804}
   text2: {fileID: 581162783}
-  backgroundMusicClip: {fileID: 8300000, guid: bc79e2449bd064e4c8c4d58536c34a88, type: 3}
+  backgroundMusicClip: {fileID: 8300000, guid: cb61b62fb8834a74d93f509fc1c2f0d2, type: 3}
 --- !u!82 &1484614185
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3291,7 +3291,7 @@ MonoBehaviour:
   dateOfConstellation: 11.23 ~ 12.24
   text1: {fileID: 802800804}
   text2: {fileID: 581162783}
-  backgroundMusicClip: {fileID: 8300000, guid: bc79e2449bd064e4c8c4d58536c34a88, type: 3}
+  backgroundMusicClip: {fileID: 8300000, guid: cb61b62fb8834a74d93f509fc1c2f0d2, type: 3}
 --- !u!82 &1507364872
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3546,7 +3546,7 @@ MonoBehaviour:
   dateOfConstellation: 12.25 ~ 1.19
   text1: {fileID: 802800804}
   text2: {fileID: 581162783}
-  backgroundMusicClip: {fileID: 8300000, guid: bc79e2449bd064e4c8c4d58536c34a88, type: 3}
+  backgroundMusicClip: {fileID: 8300000, guid: 6a7a14ddbf3285e41937a0518d8e1e97, type: 3}
 --- !u!82 &1571026546
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3981,7 +3981,7 @@ MonoBehaviour:
   dateOfConstellation: 6.22 ~ 7.22
   text1: {fileID: 802800804}
   text2: {fileID: 581162783}
-  backgroundMusicClip: {fileID: 8300000, guid: bc79e2449bd064e4c8c4d58536c34a88, type: 3}
+  backgroundMusicClip: {fileID: 8300000, guid: cb61b62fb8834a74d93f509fc1c2f0d2, type: 3}
 --- !u!82 &1958405353
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4236,7 +4236,7 @@ MonoBehaviour:
   dateOfConstellation: 4.20 ~ 5.20
   text1: {fileID: 802800804}
   text2: {fileID: 581162783}
-  backgroundMusicClip: {fileID: 8300000, guid: bc79e2449bd064e4c8c4d58536c34a88, type: 3}
+  backgroundMusicClip: {fileID: 8300000, guid: e00dba0b11849a345aa1721c6ec1a072, type: 3}
 --- !u!82 &1977845183
 AudioSource:
   m_ObjectHideFlags: 0
