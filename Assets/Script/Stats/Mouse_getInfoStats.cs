@@ -23,7 +23,7 @@ public class Mouse_getInfoStats : MonoBehaviour
     public GameObject barPrefab; // 막대 그래프의 프리팹 (GameObject)
     public GameObject barPrefab2; // 막대 그래프의 프리팹 (GameObject)
     public float barWidth = 0f; // 막대의 너비
-    public float spacing = 50f; // 막대 사이의 간격
+    public float spacing = 300f; // 막대 사이의 간격
 
     void Start()
     {
@@ -129,13 +129,14 @@ public class Mouse_getInfoStats : MonoBehaviour
 
             float yPos = position.y; // 막대의 y축 위치 계산 (1로 고정)
             barRect.sizeDelta = new Vector2(barWidth, barHeight); // 막대의 크기 설정
-            barRect.anchoredPosition = new Vector2(xPos, (yPos + barHeight / 2f) - 10f);// 막대의 위치 설정 (막대의 중심을 그래프 컨테이너의 위쪽으로 향하도록 조정)
+            barRect.anchoredPosition = new Vector2(xPos, (yPos + barHeight / 2f) - 20f);// 막대의 위치 설정 (막대의 중심을 그래프 컨테이너의 위쪽으로 향하도록 조정)
 
             Debug.Log("1. Mouse barHeight:" + barHeight + "/l:" + i);
             Debug.Log("1. Mouse xPos:" + xPos + "/l:" + i);
             Debug.Log("1. Mouse yPos:" + yPos + "/l:" + i);
 
             Image barImage = bar.GetComponent<Image>(); // 막대의 Image 컴포넌트 가져옴
+            barImage.color = new Color32(255, 192, 0, 255);
         }
     }
 
@@ -162,13 +163,14 @@ public class Mouse_getInfoStats : MonoBehaviour
 
             float yPos = position.y; // 막대의 y축 위치 계산 (1로 고정)
             barRect.sizeDelta = new Vector2(barWidth, barHeight); // 막대의 크기 설정
-            barRect.anchoredPosition = new Vector2(xPos, (yPos + barHeight / 2f) - 10f); // 막대의 위치 설정 (막대의 중심을 그래프 컨테이너의 위쪽으로 향하도록 조정)
+            barRect.anchoredPosition = new Vector2(xPos, (yPos + barHeight / 2f) - 20f); // 막대의 위치 설정 (막대의 중심을 그래프 컨테이너의 위쪽으로 향하도록 조정)
 
             Debug.Log("2. Mouse barHeight:" + barHeight + "/l:" + i);
             Debug.Log("2. Mouse xPos:" + xPos + "/l:" + i);
             Debug.Log("2. Mouse yPos:" + yPos + "/l:" + i);
 
             Image barImage = bar.GetComponent<Image>(); // 막대의 Image 컴포넌트 가져옴
+            barImage.color = new Color32(255, 192, 0, 255);
         }
     }
 }

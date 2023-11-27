@@ -23,7 +23,7 @@ public class Target_getInfoStats : MonoBehaviour
     public GameObject barPrefab; // 막대 그래프의 프리팹 (GameObject)
     public GameObject barPrefab2; // 막대 그래프의 프리팹 (GameObject)
     public float barWidth = 0f; // 막대의 너비
-    public float spacing = 50f; // 막대 사이의 간격
+    public float spacing = 300f; // 막대 사이의 간격
 
 
     void Start()
@@ -154,7 +154,7 @@ public class Target_getInfoStats : MonoBehaviour
 
             float yPos = position.y; // 막대의 y축 위치 계산 (1로 고정)
             barRect.sizeDelta = new Vector2(barWidth, barHeight); // 막대의 크기 설정
-            barRect.anchoredPosition = new Vector2(xPos, (yPos + barHeight / 2f) - 10f);// 막대의 위치 설정 (막대의 중심을 그래프 컨테이너의 위쪽으로 향하도록 조정)
+            barRect.anchoredPosition = new Vector2(xPos, (yPos + barHeight / 2f) - 20f);// 막대의 위치 설정 (막대의 중심을 그래프 컨테이너의 위쪽으로 향하도록 조정)
 
             Debug.Log("1. Target barHeight:" + barHeight + "/l:" + i);
             Debug.Log("1. Target xPos:" + xPos + "/l:" + i);
@@ -186,7 +186,7 @@ public class Target_getInfoStats : MonoBehaviour
 
             float yPos = position.y; // 막대의 y축 위치 계산 (1로 고정)
             barRect.sizeDelta = new Vector2(barWidth, barHeight); // 막대의 크기 설정
-            barRect.anchoredPosition = new Vector2(xPos, (yPos + barHeight / 2f) - 10f); // 막대의 위치 설정 (막대의 중심을 그래프 컨테이너의 위쪽으로 향하도록 조정)
+            barRect.anchoredPosition = new Vector2(xPos, (yPos + barHeight / 2f) - 20f); // 막대의 위치 설정 (막대의 중심을 그래프 컨테이너의 위쪽으로 향하도록 조정)
 
             Debug.Log("2. Target barHeight:" + barHeight + "/l:" + i);
             Debug.Log("2. Target xPos:" + xPos + "/l:" + i);

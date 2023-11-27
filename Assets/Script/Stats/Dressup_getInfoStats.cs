@@ -137,6 +137,7 @@ public class Dressup_getInfoStats : MonoBehaviour
             UnityEngine.Debug.Log("1. treasure yPos:" + yPos + "/l:" + i);
 
             Image barImage = bar.GetComponent<Image>(); // 막대의 Image 컴포넌트 가져옴
+            barImage.color = new Color32(255, 192, 0, 255);
         }
     }
 
@@ -158,7 +159,7 @@ public class Dressup_getInfoStats : MonoBehaviour
 
             float barHeight;
             if (values[i] == 0) barHeight = 1f;
-            else barHeight = values[i] * graphHeight - 30f;
+            else barHeight = values[i] * graphHeight - 80f;
             // 값을 기준으로 막대의 높이 계산 (0~200 범위를 그래프 컨테이너의 높이 범위로 변환)float yPos = position.y; // 막대의 y축 위치 계산 (1로 고정)
 
             float yPos = position.y; // 막대의 y축 위치 계산 (1로 고정)
@@ -170,6 +171,7 @@ public class Dressup_getInfoStats : MonoBehaviour
             UnityEngine.Debug.Log("2. treasure yPos:" + yPos + "/l:" + i);
 
             Image barImage = bar.GetComponent<Image>(); // 막대의 Image 컴포넌트 가져옴
+            barImage.color = new Color32(255, 192, 0, 255);
         }
     }
 }
