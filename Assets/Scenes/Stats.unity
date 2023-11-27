@@ -3890,7 +3890,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &323296537
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6618,7 +6618,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &653670024
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7126,6 +7126,7 @@ MonoBehaviour:
   barPrefab2: {fileID: 0}
   barWidth: 1
   spacing: 300
+  originalValueTextObj: {fileID: 824553421}
 --- !u!1 &711009494
 GameObject:
   m_ObjectHideFlags: 0
@@ -7738,6 +7739,7 @@ MonoBehaviour:
   barPrefab2: {fileID: 1741342796}
   barWidth: 1
   spacing: 300
+  originalValueTextObj: {fileID: 824553421}
 --- !u!114 &803832539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7757,6 +7759,7 @@ MonoBehaviour:
   barPrefab2: {fileID: 87525401}
   barWidth: 1
   spacing: 300
+  originalValueTextObj: {fileID: 824553421}
 --- !u!114 &803832540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7776,6 +7779,7 @@ MonoBehaviour:
   barPrefab2: {fileID: 164396160}
   barWidth: 1
   spacing: 300
+  originalValueTextObj: {fileID: 824553421}
 --- !u!114 &803832541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7795,6 +7799,7 @@ MonoBehaviour:
   barPrefab2: {fileID: 48308417}
   barWidth: 1
   spacing: 300
+  originalValueTextObj: {fileID: 824553421}
 --- !u!114 &803832542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7814,6 +7819,7 @@ MonoBehaviour:
   barPrefab2: {fileID: 1935103692}
   barWidth: 1
   spacing: 100
+  originalValueTextObj: {fileID: 824553421}
 --- !u!1 &805565873
 GameObject:
   m_ObjectHideFlags: 0
@@ -8193,7 +8199,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: value
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: edb7471b93b040e45900e98725f47654, type: 2}
   m_sharedMaterial: {fileID: 6462292241870746489, guid: edb7471b93b040e45900e98725f47654, type: 2}
@@ -8452,6 +8458,7 @@ MonoBehaviour:
   barPrefab2: {fileID: 0}
   barWidth: 1
   spacing: 300
+  originalValueTextObj: {fileID: 824553421}
 --- !u!1 &862466804
 GameObject:
   m_ObjectHideFlags: 0
@@ -8958,6 +8965,7 @@ MonoBehaviour:
   barPrefab2: {fileID: 0}
   barWidth: 1
   spacing: 300
+  originalValueTextObj: {fileID: 824553421}
 --- !u!1 &908459033
 GameObject:
   m_ObjectHideFlags: 0
@@ -11585,6 +11593,7 @@ MonoBehaviour:
   barPrefab2: {fileID: 0}
   barWidth: 1
   spacing: 300
+  originalValueTextObj: {fileID: 824553421}
 --- !u!1 &1132766286
 GameObject:
   m_ObjectHideFlags: 0
@@ -11902,6 +11911,7 @@ MonoBehaviour:
   barPrefab2: {fileID: 0}
   barWidth: 1
   spacing: 300
+  originalValueTextObj: {fileID: 824553421}
 --- !u!1 &1143016082
 GameObject:
   m_ObjectHideFlags: 0
@@ -12543,6 +12553,7 @@ MonoBehaviour:
   barPrefab2: {fileID: 0}
   barWidth: 1
   spacing: 300
+  originalValueTextObj: {fileID: 824553421}
 --- !u!1 &1251233053
 GameObject:
   m_ObjectHideFlags: 0
@@ -13591,6 +13602,7 @@ MonoBehaviour:
   barPrefab2: {fileID: 0}
   barWidth: 1
   spacing: 300
+  originalValueTextObj: {fileID: 824553421}
 --- !u!1 &1373102148
 GameObject:
   m_ObjectHideFlags: 0
@@ -16653,6 +16665,7 @@ MonoBehaviour:
   barPrefab2: {fileID: 0}
   barWidth: 1
   spacing: 300
+  originalValueTextObj: {fileID: 824553421}
 --- !u!1 &1706689124
 GameObject:
   m_ObjectHideFlags: 0
@@ -19562,6 +19575,7 @@ MonoBehaviour:
   barPrefab2: {fileID: 1397466110}
   barWidth: 1
   spacing: 300
+  originalValueTextObj: {fileID: 824553421}
 --- !u!1 &1947791178
 GameObject:
   m_ObjectHideFlags: 0

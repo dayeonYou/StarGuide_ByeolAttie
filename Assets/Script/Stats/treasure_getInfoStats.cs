@@ -6,6 +6,7 @@ using Firebase.Database;
 using Firebase.Extensions;
 using System;
 using UnityEngine.UI;
+using TMPro;
 
 public class treasure_getInfoStats : MonoBehaviour
 {
@@ -24,6 +25,8 @@ public class treasure_getInfoStats : MonoBehaviour
     public GameObject barPrefab2; // 막대 그래프의 프리팹 (GameObject)
     public float barWidth = 0f; // 막대의 너비
     public float spacing = 300f; // 막대 사이의 간격
+
+    public TextMeshProUGUI originalValueTextObj;
 
     void Start()
     {
@@ -139,6 +142,14 @@ public class treasure_getInfoStats : MonoBehaviour
 
             Image barImage = bar.GetComponent<Image>(); // 막대의 Image 컴포넌트 가져옴
             barImage.color = new Color32(255, 192, 0, 255);
+
+            // 'value' 오브젝트 복사하기
+            TextMeshProUGUI valueTextObj = Instantiate(originalValueTextObj, bar.transform, false);
+
+            float TxPos = position.x + reverseIndex * barWidth - 10f;  // x축 위치 계산
+                                                                       // 텍스트 위치를 막대 위로 설정하고, 텍스트 내용을 해당 막대의 값으로 설정
+            valueTextObj.transform.localPosition = new Vector2(TxPos / 2, (yPos + barHeight / 2) + 60f);
+            valueTextObj.text = values[i].ToString();
         }
     }
 
@@ -159,7 +170,7 @@ public class treasure_getInfoStats : MonoBehaviour
             float xPos = position.x + reverseIndex * (barWidth + spacing) - 10f;  // x축 위치 계산
 
             float barHeight;
-            if (values[i] == 0) barHeight = 1f;
+            if (values[i] == 0) barHeight = 0.01f;
             else barHeight = values[i] * graphHeight - 80f;
             // 값을 기준으로 막대의 높이 계산 (0~200 범위를 그래프 컨테이너의 높이 범위로 변환)float yPos = position.y; // 막대의 y축 위치 계산 (1로 고정)
 
@@ -173,6 +184,14 @@ public class treasure_getInfoStats : MonoBehaviour
 
             Image barImage = bar.GetComponent<Image>(); // 막대의 Image 컴포넌트 가져옴
             barImage.color = new Color32(255, 192, 0, 255);
+
+            // 'value' 오브젝트 복사하기
+            TextMeshProUGUI valueTextObj = Instantiate(originalValueTextObj, bar.transform, false);
+
+            float TxPos = position.x + reverseIndex * barWidth - 10f;  // x축 위치 계산
+                                                                       // 텍스트 위치를 막대 위로 설정하고, 텍스트 내용을 해당 막대의 값으로 설정
+            valueTextObj.transform.localPosition = new Vector2(TxPos / 2, (yPos + barHeight / 2) + 60f);
+            valueTextObj.text = values[i].ToString();
         }
     }
 }
