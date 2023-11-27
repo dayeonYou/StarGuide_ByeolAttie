@@ -80,7 +80,7 @@ public class DisplaySignUp : MonoBehaviour
         SetFirebaseAuth(FirebaseAuth.DefaultInstance);
 
         Debug.Log("email: " + PlayerPrefs.GetString("UserEmail"));
-        Debug.Log("pw: " + PlayerPrefs.GetString("UserPassword"));
+        // Debug.Log("pw: " + PlayerPrefs.GetString("UserPassword"));
 
         TryAutoLogin();
 

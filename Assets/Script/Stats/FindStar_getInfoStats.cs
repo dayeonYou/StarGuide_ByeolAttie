@@ -43,7 +43,7 @@ public class FindStar_getInfoStats : MonoBehaviour
         }
         else{
             databaseReference = FirebaseDatabase.DefaultInstance.RootReference;
-            UnityEngine.Debug.Log("reference is null2.");
+            // UnityEngine.Debug.Log("reference is null2.");
         }
         
         for(int l=0;l<5;l++){
@@ -113,7 +113,7 @@ public class FindStar_getInfoStats : MonoBehaviour
         }
         else{
             databaseReference = FirebaseDatabase.DefaultInstance.RootReference;
-            UnityEngine.Debug.Log("reference is null2.");
+            // UnityEngine.Debug.Log("reference is null2.");
         }
         databaseReference.Child("User+"+CurrentUserID).Child(ConstellationName).Child("FindStar").Child(date).Child(InfoToGet).GetValueAsync().ContinueWithOnMainThread(task =>
         {

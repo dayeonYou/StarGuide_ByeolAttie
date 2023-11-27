@@ -55,7 +55,7 @@ public class Mouse_getInfoStats : MonoBehaviour
         }
         else{
             databaseReference = FirebaseDatabase.DefaultInstance.RootReference;
-            Debug.Log("reference is null2.");
+            // Debug.Log("reference is null2.");
         }
     }
     void GetStatsInfo(string InfoToGet,string date, int j, string[] saveInfoArray){
@@ -67,7 +67,7 @@ public class Mouse_getInfoStats : MonoBehaviour
         }
         else{
             databaseReference = FirebaseDatabase.DefaultInstance.RootReference;
-            Debug.Log("reference is null2.");
+            // Debug.Log("reference is null2.");
         }
         databaseReference.Child("User+"+CurrentUserID).Child(ConstellationName).Child("Mouse").Child(date).Child(InfoToGet).GetValueAsync().ContinueWithOnMainThread(task =>
         {

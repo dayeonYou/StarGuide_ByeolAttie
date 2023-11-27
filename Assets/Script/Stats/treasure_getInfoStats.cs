@@ -55,11 +55,11 @@ public class treasure_getInfoStats : MonoBehaviour
         string CurrentUserID = "";
         CurrentUserID = PlayerPrefs.GetString("UserID");
         if(databaseReference!=null){   
-            Debug.Log("reference is not null2.");
+            // Debug.Log("reference is not null2.");
         }
         else{
             databaseReference = FirebaseDatabase.DefaultInstance.RootReference;
-            Debug.Log("reference is null2.");
+            // Debug.Log("reference is null2.");
         }
         databaseReference.Child("User+"+CurrentUserID).Child(ConstellationName).Child("treasure").Child(date).Child(InfoToGet).GetValueAsync().ContinueWithOnMainThread(task =>
         {

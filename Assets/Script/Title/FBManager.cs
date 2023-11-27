@@ -7,7 +7,8 @@ using UnityEngine.UI;
 using Firebase.Extensions;
 using Firebase.Database;
 using UnityEngine.SceneManagement;
-
+using System.Security.Cryptography;
+using System.Text;
 public class FBManager : MonoBehaviour
 {
     [SerializeField]
@@ -231,7 +232,8 @@ public class FBManager : MonoBehaviour
         // 데이터를 추가할 경로 설정
         string pathID = "User+"+id+"/Info/id";
         string pathGmail = "User+"+id+"/Info/gmail";
-        string pathPw = "User+"+id+"/Info/pw";
+        // string pathPw = "User+"+id+"/Info/pw";
+        string pathHashedPw = "User+"+id+"/Info/Hashedpw";
         Debug.Log("function call.");
 
         // 추가할 데이터 설정
@@ -266,17 +268,17 @@ public class FBManager : MonoBehaviour
                 Debug.LogError("gmail 추가 실패: " + task.Exception);
             }
         });
-        reference.Child(pathPw).SetValueAsync(pw).ContinueWithOnMainThread(task =>
-        {
-            if (task.IsCompleted)
-            {
-                Debug.Log("pw 추가 성공!");
-            }
-            else if (task.IsFaulted)
-            {
-                Debug.LogError("pw 추가 실패: " + task.Exception);
-            }
-        });
+        // reference.Child(pathPw).SetValueAsync(pw).ContinueWithOnMainThread(task =>
+        // {
+        //     if (task.IsCompleted)
+        //     {
+        //         Debug.Log("pw 추가 성공!");
+        //     }
+        //     else if (task.IsFaulted)
+        //     {
+        //         Debug.LogError("pw 추가 실패: " + task.Exception);
+        //     }
+        // });
         for(int i=0;i<constellationAdd.Length;i++){
             string pathConstellation = "User+"+id+"/Constellation/"+constellationAdd[i];
             
@@ -292,7 +294,11 @@ public class FBManager : MonoBehaviour
                 }
             });
         }
-        reference.Child(pathPw).SetValueAsync(pw).ContinueWithOnMainThread(task =>
+        string hashedPassword = HashPassword(pw);
+        Debug.Log("Original Password: " + pw);
+        Debug.Log("Hashed Password: " + hashedPassword);
+
+        reference.Child(pathHashedPw).SetValueAsync(hashedPassword).ContinueWithOnMainThread(task =>
         {
             if (task.IsCompleted)
             {
@@ -312,5 +318,20 @@ public class FBManager : MonoBehaviour
     {
         return reference;
     }
-    
+    public static string HashPassword(string password)
+    {
+        using (SHA256 sha256 = SHA256.Create())
+        {
+            // 문자열을 바이트 배열로 변환 후 해시 계산
+            byte[] hashedBytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
+
+            // 바이트 배열을 16진수 문자열로 변환하여 반환
+            StringBuilder builder = new StringBuilder();
+            for (int i = 0; i < hashedBytes.Length; i++)
+            {
+                builder.Append(hashedBytes[i].ToString("x2"));
+            }
+            return builder.ToString();
+        }
+    }
 }
