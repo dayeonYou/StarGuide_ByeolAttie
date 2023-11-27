@@ -23,7 +23,7 @@ public class DisplaySignUp : MonoBehaviour
     public GameObject btnStart;
 
     public Image imageComponent;
-    public CanvasGroup textToStartCanvasGroup;
+    //public CanvasGroup textToStartCanvasGroup;
     public CanvasGroup btnStartCanvasGroup;
     public CanvasGroup btnJoinCanvasGroup;
     public CanvasGroup btnLoginCanvasGroup;
@@ -75,7 +75,7 @@ public class DisplaySignUp : MonoBehaviour
         fieldPasswordCanvasGroup.alpha = 0f;
 
         //textToStart.SetActive(true);
-        textToStartCanvasGroup.alpha = 1f;
+        //textToStartCanvasGroup.alpha = 1f;
 
         SetFirebaseAuth(FirebaseAuth.DefaultInstance);
 
