@@ -209,7 +209,7 @@ public class Find_Tracking : MonoBehaviour
 
     void onGaze(GazeInfo gazeInfo)
     {
-        //Debug.Log("onGaze " + gazeInfo.timestamp + "," + gazeInfo.x + "," + gazeInfo.y + "," + gazeInfo.trackingState + "," + gazeInfo.screenState);
+        Debug.Log("onGaze " + gazeInfo.timestamp + "," + gazeInfo.x + "," + gazeInfo.y + "," + gazeInfo.trackingState + "," + gazeInfo.screenState);
         //Debug.Log(IsBlinkLeft.ToString() + IsBlinkRight.ToString() + IsBlink.ToString());
 
         isNewGaze = true;

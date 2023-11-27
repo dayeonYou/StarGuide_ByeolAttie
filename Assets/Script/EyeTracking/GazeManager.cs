@@ -22,6 +22,10 @@ public class GazeManager : MonoBehaviour
         }
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
+    public void Update()
+    {
+        Debug.Log("GazeManager alive!");
+    }
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         Debug.Log("Scene loaded: " + scene.name);
