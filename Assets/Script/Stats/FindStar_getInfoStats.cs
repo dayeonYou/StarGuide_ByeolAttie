@@ -6,6 +6,7 @@ using Firebase.Database;
 using Firebase.Extensions;
 using System;
 using UnityEngine.UI;
+using TMPro;
 
 public class FindStar_getInfoStats : MonoBehaviour
 {
