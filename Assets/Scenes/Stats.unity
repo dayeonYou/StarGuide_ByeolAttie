@@ -7125,7 +7125,7 @@ MonoBehaviour:
   barPrefab: {fileID: 481863614}
   barPrefab2: {fileID: 0}
   barWidth: 1
-  spacing: 300
+  spacing: 200
   originalValueTextObj: {fileID: 824553421}
 --- !u!1 &711009494
 GameObject:
@@ -7738,7 +7738,7 @@ MonoBehaviour:
   barPrefab: {fileID: 674162746}
   barPrefab2: {fileID: 1741342796}
   barWidth: 1
-  spacing: 300
+  spacing: 200
   originalValueTextObj: {fileID: 824553421}
 --- !u!114 &803832539
 MonoBehaviour:
@@ -7758,7 +7758,7 @@ MonoBehaviour:
   barPrefab: {fileID: 288240220}
   barPrefab2: {fileID: 87525401}
   barWidth: 1
-  spacing: 300
+  spacing: 200
   originalValueTextObj: {fileID: 824553421}
 --- !u!114 &803832540
 MonoBehaviour:
@@ -7778,7 +7778,7 @@ MonoBehaviour:
   barPrefab: {fileID: 406828976}
   barPrefab2: {fileID: 164396160}
   barWidth: 1
-  spacing: 300
+  spacing: 200
   originalValueTextObj: {fileID: 824553421}
 --- !u!114 &803832541
 MonoBehaviour:
@@ -7798,7 +7798,7 @@ MonoBehaviour:
   barPrefab: {fileID: 796217889}
   barPrefab2: {fileID: 48308417}
   barWidth: 1
-  spacing: 300
+  spacing: 200
   originalValueTextObj: {fileID: 824553421}
 --- !u!114 &803832542
 MonoBehaviour:
@@ -7818,7 +7818,7 @@ MonoBehaviour:
   barPrefab: {fileID: 949663828}
   barPrefab2: {fileID: 1935103692}
   barWidth: 1
-  spacing: 100
+  spacing: 200
   originalValueTextObj: {fileID: 824553421}
 --- !u!1 &805565873
 GameObject:
@@ -8457,7 +8457,7 @@ MonoBehaviour:
   barPrefab: {fileID: 19949995}
   barPrefab2: {fileID: 0}
   barWidth: 1
-  spacing: 300
+  spacing: 200
   originalValueTextObj: {fileID: 824553421}
 --- !u!1 &862466804
 GameObject:
@@ -8964,7 +8964,7 @@ MonoBehaviour:
   barPrefab: {fileID: 1991465449}
   barPrefab2: {fileID: 0}
   barWidth: 1
-  spacing: 300
+  spacing: 200
   originalValueTextObj: {fileID: 824553421}
 --- !u!1 &908459033
 GameObject:
@@ -11592,7 +11592,7 @@ MonoBehaviour:
   barPrefab: {fileID: 1557884628}
   barPrefab2: {fileID: 0}
   barWidth: 1
-  spacing: 300
+  spacing: 200
   originalValueTextObj: {fileID: 824553421}
 --- !u!1 &1132766286
 GameObject:
@@ -11910,7 +11910,7 @@ MonoBehaviour:
   barPrefab: {fileID: 120029827}
   barPrefab2: {fileID: 0}
   barWidth: 1
-  spacing: 300
+  spacing: 200
   originalValueTextObj: {fileID: 824553421}
 --- !u!1 &1143016082
 GameObject:
@@ -12552,7 +12552,7 @@ MonoBehaviour:
   barPrefab: {fileID: 2074387091}
   barPrefab2: {fileID: 0}
   barWidth: 1
-  spacing: 300
+  spacing: 200
   originalValueTextObj: {fileID: 824553421}
 --- !u!1 &1251233053
 GameObject:
@@ -13601,7 +13601,7 @@ MonoBehaviour:
   barPrefab: {fileID: 279767836}
   barPrefab2: {fileID: 0}
   barWidth: 1
-  spacing: 300
+  spacing: 200
   originalValueTextObj: {fileID: 824553421}
 --- !u!1 &1373102148
 GameObject:
@@ -16664,7 +16664,7 @@ MonoBehaviour:
   barPrefab: {fileID: 567024846}
   barPrefab2: {fileID: 0}
   barWidth: 1
-  spacing: 300
+  spacing: 200
   originalValueTextObj: {fileID: 824553421}
 --- !u!1 &1706689124
 GameObject:
@@ -19574,7 +19574,7 @@ MonoBehaviour:
   barPrefab: {fileID: 761442051}
   barPrefab2: {fileID: 1397466110}
   barWidth: 1
-  spacing: 300
+  spacing: 200
   originalValueTextObj: {fileID: 824553421}
 --- !u!1 &1947791178
 GameObject:
